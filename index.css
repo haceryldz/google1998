@@ -1,0 +1,66 @@
+.general{
+    display: block;
+    margin: 8px;
+}
+.logo{
+    display: block;
+    text-align: -webkit-center;
+}
+.homepage{
+    margin: 16px;
+}
+.section{
+    width: 90%;
+}
+/* arama çubuğu */
+.search{
+    background-color: rgb(238, 238, 238);
+    border-spacing: 2px;
+    margin: 1pxs;
+}
+.main{
+    display: block;
+    text-align: -webkit-center;
+}
+/* link bölümü */
+.link{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1px;
+    
+}
+.link1,.link2,.link3{    
+    margin: 1px;
+}
+.link1{
+    padding:1px;
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(112, 204, 194);
+}
+.link2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1px;
+    flex-grow: 1;
+    font-size: small;
+    background-color: rgb(112, 204, 194)
+}
+.link3{
+    padding:1px;
+    flex-grow: 2;
+    font-size: small;
+    background-color: rgb(98, 179, 170);
+    justify-content: center;
+}
+.last{
+    margin: 16px;
+    font-size: small;
+}
+
+
